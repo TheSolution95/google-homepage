@@ -6,36 +6,66 @@
 
     <title>Google Homepage</title>
 
-    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
+
 <body>
 
-    <div id="nav">
+    <div id="navsurround">
         <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li></li>
-            <li>Sign in</li>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</li>
+            <li><a href="#"><img src="barsicon.png"></a></li>
+            <li><a href="#">Photocircle</a></li>
         </ul>
     </div>
 
-    <img src="https://web.archive.org/web/20191130235109im_/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-
-    <div id="searchbaricons">
-        <input id="searchbar" type="text">
+    <div id="googleimage">
+        <img src="googlelogo.png">
     </div>
 
-    <div id="footer">
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-        </ul>
+    <div id=searchbarsurround>
+        <input id=searchbar type="text">
     </div>
+
+    <div>
+        <img src="searchicon.png" class="searchicon">
+    </div>
+
+    <div>
+        <a href="#"><img src="micicon.png" class="micicon"> </a>
+    </div>
+
+    <div id="buttonsurround">
+        <button class="buttons"><a href="#">Google Search</a></button>
+        <button class="buttons"><a href="#">I'm Feeling Lucky</a></button>
+    </div>
+
+    <div>
+        <p class="langlinks">Google offered in: <a href="#">Afrikaans</a> <a href="#">Sesotho</a> <a href="#">isiZulu</a> <a href="#">isiXhosa</a> <a href="#">Setswana</a> <a href="#">Northern Sotho</a></p>
+    </div>
+
+    <footer>
+        <h4>South Africa</h4>
+
+        <div class="footer">
+            <div class="footerlinks1">
+                <a href="#">About</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+
+            <div class="footerlinks2">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

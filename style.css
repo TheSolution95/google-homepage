@@ -1,13 +1,151 @@
-body {
+* {
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    text-decoration: none;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 li {
     display: inline;
+}
+
+li a {
+    color: rgb(8, 8, 8);
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#navsurround {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#googleimage {
+    margin-top: 175px;
+    text-align: center;
+}
+
+#searchbar {
+    padding: 22px;
+    outline: 0;
+    height: 10px;
+    width: 570px;
+    border-radius: 25px;
+    border: 1px solid #bebebe;
+    text-indent: 20px;
+}
+
+#searchbarsurround {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.searchicon {
+    width: 20px;
+    height: 15px;
+    display: block;
+    margin: auto;
+    transform: translate(-1300%, -200%);
+    background-size: contain;
+}
+
+.micicon {
+    width: 15px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(1600%, -190%);
+    cursor: pointer;
+}
+
+.buttons {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    padding: 15px;
+    margin: 0;
+}
+
+.buttons a {
+    color: rgb(8, 8, 8);
+    display: inline-block;
+    font-size: 14px;
+}
+
+.buttons a:hover {
+    text-decoration: none;
+}
+
+#buttonsurround {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.langlinks {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.langlinks a {
+    color: rgb(3, 3, 80);
+    display: inline-block;
+    padding: 12px 11.3px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.langlinks a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 170px;
+    background: #f2f2f2;
+}
+
+footer h4 {
+    color: #5f5f5f;
+    font-size: 15px;
+    line-height: 39.5px;
+    font-weight: 400;
+    padding-left: 29px;
+    border: 1px solid #eee;
+}
+
+footer a {
+    color: #5f635f;
+    display: inline-block;
+    padding: 12px 11.3px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+
+.footerlinks1 {
+    padding-left: 18.7px;
+    flex: 1;
+}
+
+.footerlinks2 {
+    padding-right: 18.7px;
 }
